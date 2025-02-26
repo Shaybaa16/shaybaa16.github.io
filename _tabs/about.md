@@ -1,15 +1,5 @@
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
----
-
 ## **Summary:**  
-A dedicated **Cybersecurity Professional** with expertise in **penetration testing**, **digital forensics**, **threat intelligence**, **web security**, and **cloud security**. Proven ability to identify and mitigate vulnerabilities, develop forensic tools, and enhance incident response strategies. Passionate about automating security processes and contributing to robust cybersecurity frameworks. Currently pursuing a **Bachelor’s Degree in Cybersecurity** at **FAST NUCES**, Islamabad.
+A dedicated **Cybersecurity Professional** with expertise in **Vulnerablity Assessment & Penetration Testing**, **Digital Forensics**, **Malware Analysis**, **Web Security**, and **Network Security**. Proven ability to identify and mitigate vulnerabilities, develop forensic tools, and enhance incident response strategies. Passionate about automating security processes and contributing to robust cybersecurity frameworks. Currently pursuing a **Bachelor’s Degree in Cybersecurity** at **FAST NUCES**, Islamabad.
 
 ---
 
@@ -45,5 +35,5 @@ A dedicated **Cybersecurity Professional** with expertise in **penetration testi
 ---
 
 ## **Coming Next?**  
-Currently focused on advancing skills in **cloud security**, **threat hunting**, and **zero-trust architecture**. Actively pursuing **advanced digital forensics training** and exploring opportunities for **hands-on projects** in **enterprise security environments**. Eager to contribute to challenging roles in **penetration testing**, **incident response**, and **forensic analysis**, driving **innovative cybersecurity solutions**.
+Currently focused on advancing skills in **DevSecOps**, **System Security**, and **Red Teaming**. Actively engaged in **Security Competitions** that test my skills in Red Team, Blue Team and exploring opportunities for **hands-on projects** in **enterprise security environments**. Eager to contribute to challenging roles in **Penetration testing**, **Security Engineer**, and **forensic analysis**, driving **innovative cybersecurity solutions**.
 
