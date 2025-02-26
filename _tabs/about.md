@@ -1,3 +1,9 @@
+---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+---
+
 ## **Summary:**  
 A dedicated **Cybersecurity Professional** with expertise in **Vulnerablity Assessment & Penetration Testing**, **Digital Forensics**, **Malware Analysis**, **Web Security**, and **Network Security**. Proven ability to identify and mitigate vulnerabilities, develop forensic tools, and enhance incident response strategies. Passionate about automating security processes and contributing to robust cybersecurity frameworks. Currently pursuing a **Bachelor’s Degree in Cybersecurity** at **FAST NUCES**, Islamabad.
 
