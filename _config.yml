@@ -3,123 +3,82 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Language and Timezone
-lang: en
-timezone:
-
-# Site Metadata
-title: Shaybaa16's Blog
-tagline: A tech-focused blog with the Chirpy theme
-description: >-
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-# URL Configuration
-url: "https://shaybaa16.github.io"
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
 baseurl: ""
 
-# GitHub Configuration
+# The language of the webpage
+lang: en
+
+# Change to your timezone
+timezone: Asia/Karachi
+
+# jekyll-seo-tag settings
+# ↓ --------------------------
+
+title: Muhammad Idrees Khan aka شیبہ
+tagline: A blog for some CS - ( AI, CY, Web ) stuff including write ups and Purple team shenanigans
+description: >-
+  A blog to share my work and write about the things that catch my interest, including AI, Cybersecurity, Web Development, and Purple team shenanigans.
+
+# Site URL
+url: "https://shaybaa16.github.io"
+
 github:
-  username: shaybaa16
+  username: Shaybaa16
 
-# Twitter Configuration (if applicable)
 twitter:
-  username: twitter_username
+  username: # Add your Twitter handle if needed
 
-# Social Links
 social:
-  name: Shaybaa16
-  email: example@domain.com
+  name: Muhammad Idrees Khan aka شیبہ
+  email: # Add your email if needed
   links:
-    - https://twitter.com/username
-    - https://github.com/shaybaa16
+    - https://github.com/Shaybaa16
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # - https://twitter.com/your_twitter_handle
+    # - https://www.linkedin.com/in/your_linkedin_profile
 
-# Site Verification Settings (Optional)
-webmaster_verifications:
-  google:
-  bing:
-  alexa:
-  yandex:
-  baidu:
-  facebook:
+google_site_verification: # fill in to your verification string
 
-# Analytics (Optional)
-analytics:
-  google:
-    id:
-  goatcounter:
-    id:
-  umami:
-    id:
-    domain:
-  matomo:
-    id:
-    domain:
-  cloudflare:
-    id:
-  fathom:
-    id:
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
 
-# Page Views (Optional)
-pageviews:
-  provider:
+google_analytics:
+  id: # Add your Google Analytics ID if needed
 
-# Theme Mode
-theme_mode: # [light | dark]
+# Prefer color scheme setting
+theme_mode: dark
 
-# CDN for Media Resources (Optional)
-cdn:
+# The CDN endpoint for images
+img_cdn: # "https://chirpy-img.netlify.app"
 
-# Avatar
-avatar:
+# Avatar image for the sidebar
+avatar: "https://avatars.githubusercontent.com/u/168670082?v=4"
 
-# Social Preview Image
-social_preview_image:
-
-# Table of Contents (TOC)
+# Enable Table of Contents in posts
 toc: true
 
-# Comments (Optional)
+# Comments configuration (Add your preferred comments integration)
 comments:
-  provider:
+  active: # Keep empty if not using comments
   disqus:
-    shortname:
-  utterances:
-    repo:
-    issue_term:
-  giscus:
-    repo:
-    repo_id:
-    category:
-    category_id:
-    mapping:
-    strict:
-    input_position:
-    lang:
-    reactions_enabled:
+    shortname: # Add your Disqus shortname if needed
 
-# Self-hosted Static Assets (Optional)
+# Self-hosted static assets, optional
 assets:
   self_host:
-    enabled:
-    env:
+    enabled: false
 
-# Progressive Web App (PWA) Settings
 pwa:
-  enabled: true
-  cache:
-    enabled: true
-    deny_paths:
-      # - "/example"
+  enabled: true # Enable PWA feature
 
-# Pagination
+# Pagination settings
 paginate: 10
 
-# Advanced Configuration (Don't modify unless necessary)
+# ------------ The following options are not recommended to be modified ------------------
+
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: highlight
@@ -153,6 +112,14 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
 
 sass:
   style: compressed
@@ -169,13 +136,13 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs
   - tools
   - README.md
+  - CHANGELOG.md
   - LICENSE
-  - purgecss.js
   - rollup.config.js
-  - "package*.json"
+  - node_modules
+  - package*.json
 
 jekyll-archives:
   enabled: [categories, tags]
