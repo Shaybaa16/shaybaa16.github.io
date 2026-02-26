@@ -63,7 +63,7 @@ I am currently pursuing a **Bachelor’s degree in Cybersecurity** at **:content
 
 ## **Certifications**
 
-- **Junior Penetration Tester** — :contentReference[oaicite:3]{index=3}  
+- **Junior Penetration Tester** — TryHackMe  
 - Network Support & Security — Cisco  
 - Digital Forensics (Windows, Linux, Mobile)  
 - OSINT & Threat Intelligence  
